@@ -1,0 +1,152 @@
+body{
+    background-color: gray;
+}
+#text{
+    position: absolute;
+    left: 100px;
+   
+}
+#image{
+    border-style: solid;
+    border-color: rgb(43, 43, 43);
+}
+.scroll-container {
+    
+    left: 200px;
+    overflow: auto;
+    padding: 10px;
+  }
+  
+  .scroll-container img {
+    padding: 10px;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' ,sans-serif;
+    text-decoration: none;
+}
+.portal1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    background-color: rgb(117, 117, 117);
+}
+.portal1:hover{
+    background-color: #474747;
+}
+
+.portal1 a{
+    position: relative;
+    padding: 25px 30px;
+    border-radius: 75px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #000000;
+    
+    font-size: 2rem;
+    font-weight: bold;
+    transform: .5s;
+    overflow: hidden;
+    margin-right: 70px;
+
+}
+.portal1 a:hover{
+    background-color: rgb(202, 202, 202);
+    border-style: solid ;
+    border-color: #000500;
+
+    color: black;
+    box-shadow: 0 0 5px rgb(0, 0, 0),
+                0 0 15px rgb(0, 0, 0),
+                0 0 25px rgb(255, 255, 255),
+                0 0 35px rgb(0, 0, 0);
+    -webkit-box-relect : below 1px linear-gradient(transparent,#000500);
+}
+.portal2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    background-color: rgb(94, 94, 94);
+}
+.portal2:hover{
+    background-color: #474747;
+}
+.portal2 a{
+    position: relative;
+    padding: 25px 30px;
+    border-radius: 75px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #000000;
+    
+    font-size: 2rem;
+    font-weight: bold;
+    transform: .5s;
+    overflow: hidden;
+    margin-right: 70px;
+
+}
+.portal2 a:hover{
+    background-color: rgb(255, 255, 255);
+    border-style: solid ;
+    border-color: #000500;
+
+    color: black;
+    box-shadow: 0 0 5px rgb(0, 0, 0),
+                0 0 15px rgb(0, 0, 0),
+                0 0 25px rgb(254, 255, 255),
+                0 0 35px rgb(0, 0, 0);
+    -webkit-box-relect : below 1px linear-gradient(transparent,#000500);
+}
+
+.portal3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    background-color: rgb(107, 107, 107);
+}
+.portal3:hover{
+    background-color: #474747;
+}
+.portal3 a{
+    position: relative;
+    padding: 25px 30px;
+    border-radius: 75px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #000000;
+    
+    font-size: 2rem;
+    font-weight: bold;
+    transform: .5s;
+    overflow: hidden;
+    margin-right: 70px;
+
+}
+.portal3 a:hover{
+    background-color: rgb(255, 255, 255);
+    border-style: solid ;
+    border-color: #000500;
+
+    color: black;
+    box-shadow: 0 0 5px rgb(0, 0, 0),
+                0 0 15px rgb(0, 0, 0),
+                0 0 25px rgb(254, 255, 255),
+                0 0 35px rgb(0, 0, 0);
+    -webkit-box-relect : below 1px linear-gradient(transparent,#000500);
+}
+.portalnumber{
+    position: absolute;
+    left: 200px;
+    
+}
+/* }
+a:first-child{
+    filter: hue-rotate(300deg);
+} */
+

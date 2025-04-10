@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.contact{
+    color: aliceblue;
+    font-size: 50px;
+
+}
+.content{
+    color: aliceblue;
+    
+    
+}
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 3vh;
+    background: black;
+
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background: black;
+    align-items: center;
+    height: 100px;
+    background-image:conic-gradient(transparent,#706b6d); 
+   
+}
+
+    label,input,button{
+        position: sticky;
+        align-items: center;
+        margin: 10px;
+    }
+
+section{
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+    flex-direction: row;
+     min-height: 70vh; 
+     min-width: none;
+    
+}
+.card{
+ position: relative;
+ /* line-height: 60px; */
+
+
+ background: #8f8f8f;
+color: black;
+ width: 300px;
+ text-decoration: none;   
+ border-radius: 10px;
+  background-image:conic-gradient(transparent, #8f8f8f); 
+ margin: 0 auto;
+ text-align: center;
+ padding: 2em;
+ 
+}
+.card:hover{
+    background-color:  #8f8f8f;
+    color: black;
+    box-shadow: 0 0 5px  #8f8f8f,
+                0 0 25px   #8f8f8f,
+                0 0 50px   #8f8f8f,
+                0 0 75px   #8f8f8f;
+    -webkit-box-relect : below 1px linear-gradient(transparent,#000500);
+}
+
+.social{
+    ul {
+        display: flex;
+        padding: 0;
+      }
+      
+      ul li {
+        list-style: none;
+        margin: 10px;
+      }
+      
+      ul li a {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #f1f1f1;
+        text-align: center;
+       line-height: 60px;   
+        
+        color: #333;
+        font-size: 24px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s, box-shadow 0.3s;
+        background: linear-gradient(45deg, #8f8f8f, #807f7f);
+      }
+      
+      ul li a:hover {
+        background-color: #c0c0c0;
+       
+      }
+   
+    i:hover{
+        color:rgb(255, 255, 255);
+    }
+      
+       .fa {
+        font-family: FontAwesome;
+        
+      }
+}
+.return{
+    display: inline-block;
+    text-align: center;
+    min-height: 7px;  
+       background-color: aliceblue;
+       
+    margin: 10px;
+    min-width: 5vh;
+}
+
+
