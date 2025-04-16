@@ -476,6 +476,7 @@ section{
     
     padding: 10px;
     border-radius: 25px;
+    
    
 }
 
@@ -541,6 +542,7 @@ section{
     
    
     }
+    
 
     nav a {
         font-size: 50px;
@@ -564,6 +566,10 @@ section{
     #logo {
         width: 60px;
         height: 80px;
+        width: 100px;
+        height: 220px;
+        position: relative;
+        top: 250px;
     }
 
     nav {
@@ -608,9 +614,10 @@ section{
     }
 
     .questiontext {
-        font-size: 14px;
+        font-size: 20px;
         width: auto;
         padding: 8px;
+
     }
 
     #name,
@@ -620,9 +627,10 @@ section{
         font-size: 50px;
     }
 
-    .move {
-        font-size: 16px;
-        text-align: center;
+   
+    .move{
+        font-size: 50px;
+    
     }
 }
 
@@ -690,7 +698,7 @@ section{
         flex-wrap: wrap;
         justify-content: center;
         margin: 40px;
-        gap: 40px;
+        gap: 400px;
     }
 
     .aboutlast,
