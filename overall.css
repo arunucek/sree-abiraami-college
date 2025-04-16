@@ -2,9 +2,6 @@
     height:150px; 
     width:100px;
     color: rgb(17, 255, 9);
-   
-    
-
 }
 .emojy{
    
@@ -273,8 +270,7 @@ color: rgb(248, 242, 242);
     color: #0ef;
     font-size: 20px;
     color: rgb(255, 218, 149);
-    text-shadow: 0px 0px 20px rgb(255, 255, 255),
-                0px 0px 40px rgb(255, 255, 255);
+    text-shadow: 0px 0px 20px rgb(116, 114, 114),;
     font-weight: 100;
     
 }
@@ -383,6 +379,9 @@ color: rgb(248, 242, 242);
     
 
 }
+.h1tag{
+    color: #0ef;
+}
 .image{
     border-bottom: #111;
     border-radius: 5px;
@@ -411,5 +410,302 @@ section{
 .arun{
     color: #0ef;
     bottom: top;
-    size: 25px;
+    size: 25px;    
+}
+
+section{
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+     min-height:25vh; 
+     min-width: none;
+     position: relative;
+
+    /* background: rgb(4, 4, 5); */
+}
+/* this is main page */
+.question{
+    border-style: solid; 
+    border-color: rgb(0, 0, 0);
+    height: 370px ;
+    width: 250px; 
+    border-width: 05px;
+    border-radius: 0px;
+    
+}
+.question:hover{
+    
+    border-radius: 25px;
+    padding: 10px;
+   
+   
+}
+.question1{
+    border-style: solid; 
+    border-color: rgb(0, 0, 0);
+    height: 370px ;
+    width: 250px; 
+    border-width: 05px;
+    border-radius: 0px;
+     
+}
+
+.question1:hover{
+    
+    
+    border-radius: 25px;
+    padding: 10px;
+              
+
+   
+}
+.question2{
+    border-style: solid; 
+    border-color: rgb(0, 0, 0);
+    height: 370px ;
+    width: 250px; 
+    border-width: 05px;
+    border-radius: 0px;
+     
+}
+
+.question2:hover{
+    
+    padding: 10px;
+    border-radius: 25px;
+   
+}
+
+.questiontext{
+    color: rgb(255, 200, 200);
+    text-decoration: none;
+    font: size 50PX; ;
+    height: 45px;
+    width: 120px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    text-decoration:none;
+    position: relative;
+    bottom: 20px;
+    padding: 03px;
+
+    
+}
+.questiontext:hover{
+    
+    box-shadow: 0px 0px 20px rgb(102, 102, 102);
+    background-color: rgb(87, 87, 87);
+    /* border-color: rgb(255, 255, 255); */
+    
+    padding: 05px;
+    
+
+}
+#thankyou{
+    color: aliceblue; 
+    text-shadow: 0px 0px 20px  rgb(255, 0, 0),0px 0px 40px rgb(0, 0, 0);
+}
+#thankh3{
+    color: #dbdad9;
+}
+
+
+
+
+
+/* ========= All Device Responsive Layout ========= */
+
+/* 🌐 Default: Desktop & Large Screens (min-width: 1025px) */
+
+@media (min-width: 1025px) {
+    #logo {
+        width: 100px;
+        height: 150px;
+    }
+    .move{
+        font-size: 50px;
+    
+    }
+    #name{
+    color: wheat;
+    position: relative;
+    top: -115px;
+    font-size: 30px;
+
+    
+   
+    }
+
+    nav a {
+        font-size: 50px;
+    }
+
+    section {
+        flex-direction: row;
+        gap: 100px;
+        margin: 130px;
+    }
+
+    .card, .threeabout, .iframe1, .question, .question1, .question2 {
+        width: 250px;
+        height: auto;
+        font-size: 20px;
+    }
+}
+
+/* 📱 Mobile Devices (max-width: 767px) */
+@media (max-width: 767px) {
+    #logo {
+        width: 60px;
+        height: 80px;
+    }
+
+    nav {
+        top: 0;
+        padding: 5px;
+        
+    }
+
+    nav a {
+        font-size: 54px;
+        padding: 10px 12px;
+        display: block;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+
+    .threeabout,
+    .iframe1,
+    .card,
+    .question,
+    .question1,
+    .question2 {
+        width: 90%;
+        margin: 10px auto;
+        position: static;
+        font-size: 30px;
+    }
+
+    .aboutlast,
+    .button {
+        width: 80%;
+        height: auto;
+        margin: 10px auto;
+        position: static;
+    }
+
+    section {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 20px;
+        gap: 200px;
+    }
+
+    .questiontext {
+        font-size: 14px;
+        width: auto;
+        padding: 8px;
+    }
+
+    #name,
+    .emojy {
+        position: static;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .move {
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+
+/* 📱📲 Tablet Devices (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    #logo {
+        width: 100px;
+        height: 220px;
+        position: relative;
+        top: 250px;
+
+    }
+    .move{
+        font-size: 50px;
+    
+    }
+    #name{
+    color: wheat;
+    position: relative;
+    top: -115px;
+    font-size: 50px;
+
+    
+   
+    }
+    .emojy{
+        position: absolute;
+        top: 250px;
+       
+        right: -10px;
+    }
+
+    nav a {
+        font-size:50px;
+        padding: 08px 15px;
+        color: rgb(255, 255, 255);
+        
+    }
+
+    .abouttext1{
+        font-size: -1000px;
+    }
+
+    .threeabout,
+    .iframe1,
+    .question,
+    .question1,
+    .question2 {
+        width: 350px;
+        height: 500px;
+        margin: 15px auto;
+        position: static;
+        font-size: 30px;
+        color: #dbdad9;
+    }.card{
+        height:-100px;
+        width: -100px;
+    }
+    .questiontext{
+         color: #0ef;
+    }
+
+    section {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 40px;
+        gap: 40px;
+    }
+
+    .aboutlast,
+    .button {
+        width: 60%;
+        margin: 10px auto;
+        position: static;
+    }
+
+    .questiontext {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    #name {
+        top: -30px;
+    }
 }
